@@ -18,8 +18,6 @@
 	#       ...,
 	#	]
 	######################################
-		
-	include_once('../softaculous/inc.php');
 
 	$result = array();
 		
