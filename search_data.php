@@ -23,6 +23,14 @@
 		This File Gets a string and searches that string in the 
 		database for the match and returns if a match is found 
 		or even a partial match is found
+		
+		Use this type of Ajax request while Ajaxing to this page
+		
+		$.ajax({
+	            type: "POST",
+	            url: "'.$spobs['url'].'/website/search_data.php",
+	            data: {data:value,base_app:website},
+	            success: function(result){"Your function if the request is successful"}
 	*/
 
 	$result = array();
