@@ -18,6 +18,12 @@
 	#       ...,
 	#	]
 	######################################
+	
+	/*
+		This File Gets a string and searches that string in the 
+		database for the match and returns if a match is found 
+		or even a partial match is found
+	*/
 
 	$result = array();
 		
