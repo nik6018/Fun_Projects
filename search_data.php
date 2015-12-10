@@ -28,7 +28,7 @@
 		
 		$.ajax({
 	            type: "POST",
-	            url: "'.$spobs['url'].'/website/search_data.php",
+	            url: "Your URL to the Site",
 	            data: {data:value,base_app:website},
 	            success: function(result){"Your function if the request is successful"}
 	*/
